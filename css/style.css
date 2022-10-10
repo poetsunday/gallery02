@@ -1,6 +1,9 @@
 img{
 	max-width: 100%;
 }
+.banner-image{
+	background-image: url('media/photo9.jpg');
+}
 .gallery{
 	background-color: #dbddf1;
 	padding: 80px 0;
