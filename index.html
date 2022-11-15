@@ -11,18 +11,19 @@
         <link rel="stylesheet" href="/css/style.css">
         <style>
             .banner-image {
-                background-image: url('media/photo9.JPG');
+                background-image: url('media/background.jpg');
                 background-size: cover;
             }
         </style>
     </head>
-    <body>
+ <body>
+
       <!--Start of Home-->
       <div id="home">
       <!-- Navbar  -->
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
         <div class="container">
-            <a class="navbar-brand" href="#">Web Zone</a>
+            <a class="navbar-brand" href="#">PoetSunday DEV</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,16 +36,16 @@
                         <a class="nav-link text-white" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About</a>
+                        <a class="nav-link text-white" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Blog</a>
+                        <a class="nav-link text-white" href="https://poetsunday.ca">My Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Pricing</a>
+                        <a class="nav-link text-white" href="#">link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white" href="#">link</a>
                     </li>
                 </ul>
             </div>
@@ -54,13 +55,65 @@
         <!-- Banner Image  -->
         <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
           <div class="content text-center">
-            <h1 class="text-white">WEB ZONE</h1>
+            <h1 class="text-white">Development Site</h1>
+            <a href="https://www.dpbolvw.net/click-100732367-10511899" target="_top">HostPapa Green Energy Web Hosting</a><img
+                src="https://www.ftjcfx.com/image-100732367-10511899" width="1" height="1" border="0" />
           </div>
         </div>
      </div>
-    
+     <!--End of Home-->
+
+     <!--Start of Gallery-->
+     <div id="gallery">
+        <section class="gallery min-vh-100">
+            <div class="container-lg">
+                <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    <div class="col">
+                        <img src="media/photo1.JPG" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="media/photo2.JPG" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="media/photo3.JPG" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="media/photo4.JPG" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="media/photo5.JPG" class="gallery-item" alt="gallery">
+                    </div>
+                    <div class="col">
+                        <img src="media/photo6.JPG" class="gallery-item" alt="gallery">
+                    </div>  
+                </div>
+            </div>
+        </section>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/1.jpg" class="modal-img" alt="modal img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+     </div>
+     <!--End of Gallery-->
     
      <script src="js/bootstrap.bundle.min.js"></script> 
+     <script src="js/main.js"></script>
 
      <script type="text/javascript">
         var nav = document.querySelector('nav');
@@ -73,6 +126,6 @@
             }
         });
      </script 
-    </body>
+ </body>
 
 </html>
